@@ -17,7 +17,7 @@ def author():
 
 @app.route('/blogs')
 def blogs():
-    return render_template('blogs.html', blogs= Blogs)
+    return render_template('blogs.html', Blogs= Blogs)
 
 
 
